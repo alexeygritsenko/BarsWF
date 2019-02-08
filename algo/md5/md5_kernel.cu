@@ -2,7 +2,14 @@
 //we obviously using CUDA :-D
 #define CUDA
 
-#include <cuda.h>
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <Windows.h>
+
+//#include <cuda.h>
 #include "md5_kernel.h"
 #include "md5.h"
 
